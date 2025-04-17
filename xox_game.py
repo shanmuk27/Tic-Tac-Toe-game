@@ -47,7 +47,7 @@ while chanse <= 9:
         game.add_element(chanse)
         game.board_display()
         if game.win_check():
-            print(f"Player {player} wins!! 🎉")
+            print(f"Player {player} wins!!")
             break
         chanse += 1
     elif choice == 0:
@@ -57,4 +57,4 @@ while chanse <= 9:
         print("Invalid input. Please enter 1 or 0.")
 
 if chanse > 9:
-    print("It's a draw! 🤝")
+    print("It's a draw!")
